@@ -1,0 +1,29 @@
+#root{
+  
+        --white:#fff;
+        --gray-100: #DEDEDE;
+        --green-500: #5C8213;
+        --green-400: #A6BF36;
+        --green-600: #3D5908;
+        --black: #100F0D;
+    
+        --primary-color: #020228;
+        --secondary-color: #ff00e5;
+        --tertiary-color: #b535f6;
+        --text-color: #fff;
+
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(163, 163, 163);
+}
+
