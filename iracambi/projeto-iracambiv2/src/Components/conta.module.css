@@ -1,34 +1,47 @@
-
-.imgConta{
-    height: 91vh;
-    width:100%;
- 
- 
- }
- 
- .conta{
- 
-     max-width: 800px;
-     max-height: 800px;
-     display: flex;
-     position: fixed;
-     margin-top: 10%;
-     margin-left: 33%;
-     letter-spacing: 0.3em;
-     
- 
- }
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
  
  .box{
  
-     /* Começo do background de Vidro */
-     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0 ));
-     backdrop-filter: blur(10px);
-     -webkit-backdrop-filter: blur(10px);
-     border-radius: 50px;
-     display: flex;
-     align-items: center;   
-     /* Fim do background de Vidro */
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 24px;
+    justify-content: center;
+    background-color: var(--green-600);
+    color: white;
          
  }
+
+input{
+    border: none;
+}
+
+ form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+ }
+
+ button{
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 20px; 
+    width: 100px;
+    border: none;
+    margin: 10px;
+    transition: 0.5s;
+    font-family: 'Oswald', sans-serif;  
+    cursor: pointer; 
+}
+
+button:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+    background:#ccff33 ;
+    transform: rotateX(360deg)
+}
+
  

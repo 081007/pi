@@ -6,7 +6,7 @@ import Main from "./Components/Main.jsx"
 import Cart from "./Components/Cart"
 import Header from './Components/Header.jsx';
 import Footer from './Components/Footer.jsx';
-import Conta from './Components/Conta.jsx';
+import Conta from './Components/Conta';
 
 function App() {
 
@@ -22,7 +22,6 @@ function App() {
         <Route path="/Cart" element={<Cart />} />
         <Route path="/Conta" element={<Conta />} />
         
-
       </Routes>
 
       <Footer/>
